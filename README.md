@@ -19,7 +19,7 @@ cd recall
 2. Create a virtual environment (recommended):
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 3. Install dependencies:
@@ -134,14 +134,11 @@ Use the `--debug` flag to get detailed information about:
 
 - The bot needs time to join the meeting and start recording
 - Transcripts are only available after the bot has successfully joined and recorded
-- Make sure your Recall.ai API key has the necessary permissions
-- Keep your API key secure and never commit it to version control
 
 ## Troubleshooting
 
 1. **API Key Issues**
    - Verify your API key in the `.env` file
-   - Ensure the API key starts with 'recall_'
    - Check if you have sufficient API credits
 
 2. **Bot Creation Issues**
